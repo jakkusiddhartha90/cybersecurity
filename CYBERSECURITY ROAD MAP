@@ -1,0 +1,212 @@
+# cybersecurity
+My 90-Day Cybersecurity Learning Journey | Networking, Linux, Windows, Ethical Hacking, Cryptography, Web Security, SOC Analysis, Security Tools, and Hands-on Labs.
+
+Documenting my daily progress, practical exercises, commands, challenges, and cybersecurity skills from beginner to advanced foundations.
+
+
+
+  🔐 90 Days of Cybersecurity Challenge
+Welcome to my 90-Day Cybersecurity Learning Journey! 🚀
+I am documenting my day-by-day progress as I develop practical skills in networking, operating systems, ethical hacking, cryptography, web application security, SOC operations, and security governance.
+🎯 My Goals
+Build strong cybersecurity fundamentals.
+Practice hands-on labs using Kali Linux, VirtualBox, Wireshark, Nmap, and other tools.
+Understand both offensive (Red Team) and defensive (Blue Team) security.
+Share daily notes, screenshots, commands, and lessons learned.
+Build a public portfolio and prepare for entry-level cybersecurity roles.
+Progress: 0 / 90 days completed. Check each task as you finish it.
+Ethics: All scans and security exercises are performed only on systems I own, authorized environments, or training labs.
+📚 Daily Roadmap
+Week 1: Foundations – How Computers & Networks Talk
+
+Day 1: Learn how the internet works (watch a "how the internet works" primer; understand the basic model).
+
+Day 2: OSI Model — memorize all 7 layers and what happens at each.
+
+Day 3: TCP/IP model — compare it to OSI, understand IP addresses & subnetting basics.
+
+Day 4: Ports & protocols — learn top 20 (80, 443, 22, 21, 25, 53, 3389, etc.) and what they do.
+
+Day 5: DNS — how domain resolution works, record types (A, MX, CNAME, TXT).
+
+Day 6: HTTP/HTTPS — requests, responses, status codes, headers, cookies.
+
+Day 7: Review + quiz yourself on Week 1 (no notes) — redo any weak areas.
+Week 2: Networking Deep Dive
+
+Day 8: Routers, switches, firewalls — what each does at a basic level.
+
+Day 9: NAT and private vs. public IP addressing.
+
+Day 10: VPNs — how they work, why they matter for security.
+
+Day 11: Install Wireshark, capture your own traffic, identify a TCP handshake.
+
+Day 12: Use Wireshark to inspect an HTTP request end-to-end.
+
+Day 13: Learn basic subnetting math (practice 10 subnetting problems).
+
+Day 14: Review + rebuild your home network diagram from memory.
+Week 3: Operating Systems – Linux Fundamentals
+
+Day 15: Install a Linux VM (Kali or Ubuntu) using VirtualBox/VMware.
+
+Day 16: Learn the Linux filesystem hierarchy (/etc, /var, /home, etc.).
+
+Day 17: Basic commands: ls, cd, pwd, cp, mv, rm, mkdir, cat.
+
+Day 18: File permissions: chmod, chown, understanding rwx.
+
+Day 19: Users & groups: useradd, passwd, sudo, /etc/passwd.
+
+Day 20: Processes & services: ps, top, kill, systemctl.
+
+Day 21: Review — complete an "OverTheWire: Bandit" set of levels (1–10) as practice.
+Week 4: Operating Systems – Windows Fundamentals
+
+Day 22: Windows directory structure & registry basics.
+
+Day 23: Windows command line: dir, ipconfig, netstat, tasklist.
+
+Day 24: PowerShell basics: Get-Process, Get-Service, Get-ChildItem.
+
+Day 25: Windows user accounts, groups, and permissions (NTFS).
+
+Day 26: Active Directory — what it is and why it matters (conceptual).
+
+Day 27: Windows Event Viewer — explore logs on your own machine.
+
+Day 28: Review — complete OverTheWire Bandit levels 11–20.
+Week 5: Security Fundamentals & Concepts
+
+Day 29: CIA Triad (Confidentiality, Integrity, Availability) — explain it in your own words.
+
+Day 30: Authentication vs. Authorization vs. Accounting (AAA).
+
+Day 31: Threats, vulnerabilities, and risk — how they relate.
+
+Day 32: Common attack types overview (phishing, malware, DoS, MITM — conceptual overview).
+
+Day 33: Defense in depth & the security mindset.
+
+Day 34: Intro to cryptography: symmetric vs asymmetric encryption.
+
+Day 35: Hashing vs encryption vs encoding — know the difference cold.
+Week 6: Cryptography & PKI
+
+Day 36: Public Key Infrastructure (PKI) basics — certificates, CAs.
+
+Day 37: TLS/SSL handshake process step-by-step.
+
+Day 38: Hands-on: generate your own SSH key pair, understand public/private key use.
+
+Day 39: Password hashing algorithms (bcrypt, SHA-256) and why salting matters.
+
+Day 40: Digital signatures — how they prove authenticity.
+
+Day 41: Practice: encrypt/decrypt a file using GPG on the command line.
+
+Day 42: Review Weeks 5–6 with flashcards (make 20 cards, quiz yourself).
+Week 7: Security Tools & Ecosystem
+
+Day 43: Antivirus/EDR — how modern endpoint detection works (conceptual).
+
+Day 44: Firewalls in depth — stateful vs stateless, ACLs.
+
+Day 45: IDS vs IPS — differences and placement in a network.
+
+Day 46: SIEM basics — what it collects and why (look at Splunk or ELK docs).
+
+Day 47: Set up a free Splunk or ELK instance locally, ingest sample logs.
+
+Day 48: Explore MITRE ATT&CK framework — browse tactics & techniques.
+
+Day 49: Review — map 5 attack types to MITRE ATT&CK tactics from memory.
+Week 8: Introduction to Offensive Security
+
+Day 50: Sign up for TryHackMe (free tier) — complete "Pre Security" path intro.
+
+Day 51: Learn the ethical hacking process: recon → scanning → exploitation → reporting.
+
+Day 52: Nmap basics — install it, scan your own home network (with permission).
+Day 53: Nmap scan types & flags (-sV, -sC, -A, -p-).
+
+Day 54: Intro to vulnerability scanning concepts (Nessus/OpenVAS overview).
+
+Day 55: TryHackMe: complete a beginner room (e.g., "Nmap" or "Intro to Networking").
+
+Day 56: Review + write a one-page summary of the recon process.
+Week 9: Web Application Security Basics
+
+Day 57: OWASP Top 10 — read the list, understand each briefly.
+
+Day 58: SQL Injection — concept, how it works (use PortSwigger Academy).
+
+Day 59: Cross-Site Scripting (XSS) — concept and practice on PortSwigger Academy.
+
+Day 60: Cross-Site Request Forgery (CSRF) — concept.
+
+Day 61: Broken authentication & session management issues.
+
+Day 62: TryHackMe: complete an OWASP Top 10 room.
+
+Day 63: Review — summarize each OWASP Top 10 item in one sentence, from memory.
+Week 10: Defensive Security / Blue Team Basics
+
+Day 64: Log analysis fundamentals — what "normal" vs "suspicious" looks like.
+
+Day 65: Incident response lifecycle (prepare, detect, contain, eradicate, recover, lessons learned).
+
+Day 66: Phishing email analysis — practice identifying red flags in sample emails.
+
+Day 67: Malware basics — types (virus, worm, trojan, ransomware) at a conceptual level.
+
+Day 68: Sandboxing concept — how analysts safely study suspicious files (conceptual overview).
+
+Day 69: TryHackMe: complete a SOC/blue-team-focused beginner room.
+
+Day 70: Review — write a mock incident report for a fictional phishing scenario.
+Week 11: Governance, Risk, Compliance & Soft Skills
+
+Day 71: Learn key frameworks: NIST CSF, ISO 27001 (overview level).
+
+Day 72: Common compliance standards: GDPR, HIPAA, PCI-DSS (know what each covers).
+
+Day 73: Risk assessment basics — likelihood × impact.
+
+Day 74: Security policies — what a good policy document includes.
+
+Day 75: Practice explaining a technical concept (e.g., phishing) to a non-technical person.
+
+Day 76: Update your resume/LinkedIn with skills learned so far.
+
+Day 77: Review Week 11 — quiz yourself on framework names & purposes.
+Week 12: Certification Prep & Consolidation
+
+DAy 78: Choose your first cert target (CompTIA Security+ recommended) — get the objectives.
+
+Day 79: Take a Security+ practice exam (baseline, no studying) to find weak spots.
+Day 80: Study weak spot #1 from practice exam.
+
+Day 81: Study weak spot #2 from practice exam.
+
+Day 82: Study weak spot #3 from practice exam.
+
+Day 83: Take a second practice exam, compare score improvement.
+
+Day 84: Review all flashcards made throughout the 90 days.
+Week 13: Portfolio & Next Steps
+
+Day 85: Write up 2–3 TryHackMe rooms you completed as portfolio notes.
+
+Day 86: Set up a GitHub profile, upload your notes/scripts/write-ups.
+
+Day 87: Research entry-level roles (SOC Analyst, IT Support + Security, Jr. Pentester).
+
+Day 88: Join a cybersecurity community (Discord, Reddit r/cybersecurity, local meetup).
+
+Day 89: Plan your next 90 days (pick a specialization: blue team, red team, cloud, GRC).
+
+Day 90: Final review — write a summary of everything you've learned and what surprised you. 
+
+
